@@ -286,8 +286,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\CGradient.cs" />
     <Compile Include="Assets\Editor\GradientDrawer.cs" />
     <Compile Include="Assets\Editor\GradientEditor.cs" />
+    <Compile Include="Assets\Editor\Testing.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
